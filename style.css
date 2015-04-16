@@ -1,0 +1,123 @@
+div, p{
+	margin:0;
+	padding:0;
+}
+/** PHONE BASE **/
+#cellphone{
+	height:600px;
+	width:320px;
+	padding:10px;
+	background-color:#000;
+	border-radius:30px;
+	margin:auto;
+}
+
+#screen{
+	margin-top:20%;
+	height:80%;
+	width:100%;
+	background-color:#fff;
+}
+
+#home-button{
+	margin:9px auto;
+	height:50px;
+	width:50px;
+	background-color:#0a0a0a;
+	border:1px solid #aaa;
+	border-radius:25px;
+}
+
+/**TOP BAR **/
+#header{
+	line-height:0px;
+}
+
+#top-header{
+	padding:3px;
+	height:12px;
+}
+
+.top{
+	font-size:12px;
+	display:inline-block;
+	width:33%;
+}
+
+.top *{
+	display:inline-block;
+	margin:0;
+}
+
+.left{
+	text-align:left;
+}
+
+.middle{
+	text-align:center;
+}
+
+.right{
+	text-align:right;
+}
+/**HOME VIEW**/
+#home-wrapper{
+	margin:10px 0px;
+	padding:10px;
+}
+
+#CalcButton{
+	width:64px;
+	height:64px;
+	background-image:url('images/buttons/calcButton.jpg');
+	border-radius:5px;
+}
+
+/**CALCULATOR VIEW**/
+#calculator{
+	width:100%;
+	height:390px;
+}
+
+#calc-screen{
+	width:100%;
+	height:120px;
+	background-color:#666;
+	display:block;
+	color:#eee;
+}
+
+#input{
+	padding-top:30px;
+	padding-right:5px;
+	font-size:60px;
+	text-align:right;
+}
+
+.keys{
+	width:78px;
+	height:67px;
+	line-height:67px;
+	text-align:center;
+	float:left;
+	font-size:30px;
+	background-color:#ccc;
+	border:1px solid #666;
+	cursor:pointer;
+}
+
+.keys.hover{
+	background-color: #999
+}
+
+.operator{
+	background-color:#f62
+}
+
+.operator.hover{
+	background-color:#b52
+}
+
+.two-wide{
+	width:158px;
+}
