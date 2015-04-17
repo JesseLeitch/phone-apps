@@ -4,22 +4,22 @@
 		<p id="operator">{{ operator }}</p>
 	</div>
 	<div id="keys">
-		<div class="keys">C</div>
+		<div class="keys" ng-click='clear()'>C</div>
 		<div class="keys">+</div>
 		<div class="keys">%</div>
-		<div class="keys operator">÷</div>
+		<div class="keys operator" ng-click='divide()'>÷</div>
 		<div class="keys" ng-click='inputVal(7)'>7</div>
 		<div class="keys" ng-click='inputVal(8)'>8</div>
 		<div class="keys" ng-click='inputVal(9)'>9</div>
-		<div class="keys operator">x</div>
+		<div class="keys operator" ng-click='multiply()'>x</div>
 		<div class="keys" ng-click='inputVal(4)'>4</div>
 		<div class="keys" ng-click='inputVal(5)'>5</div>
 		<div class="keys" ng-click='inputVal(6)'>6</div>
-		<div class="keys operator">-</div>
+		<div class="keys operator" ng-click='subtract()'>-</div>
 		<div class="keys" ng-click='inputVal(1)'>1</div>
 		<div class="keys" ng-click='inputVal(2)'>2</div>
 		<div class="keys" ng-click='inputVal(3)'>3</div>
-		<div class="keys operator">+</div>
+		<div class="keys operator" ng-click='add()'>+</div>
 		<div class="keys two-wide" ng-click='inputVal(0)'>0</div>
 		<div class="keys">.</div>
 		<div class="keys operator">=</div>
